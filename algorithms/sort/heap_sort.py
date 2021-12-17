@@ -21,6 +21,8 @@ def heap_sort(input_array):
     for i in range(int(n/2) - 1, -1, -1):
         heapify(input_array, n, i)
 
+    print(input_array)
+
     for i in range(n - 1, 0, -1):
         input_array[0], input_array[i] = input_array[i], input_array[0]
         heapify(input_array, i, 0)

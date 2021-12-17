@@ -1,19 +1,3 @@
-from collections import defaultdict
-
-
-# class Node:
-#     def __init__(self, name, data):
-#         self.name = name
-#         self.data = data
-#
-#
-# class Edge:
-#     def __init__(self, source, destination, weight):
-#         self.source = source
-#         self.destination = destination
-#         self.weight = weight
-
-
 class Graph:
     def __init__(self, v, e):
         self.v = v
